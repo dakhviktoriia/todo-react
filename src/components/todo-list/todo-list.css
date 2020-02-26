@@ -1,0 +1,30 @@
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.liWrap{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(199, 199, 199);
+    margin-top: 15px;
+    border-radius: 5px;
+    line-height: 40px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+li:hover{
+    cursor: pointer;
+
+}
+
+.done{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.liWrap:hover i{
+    color: red;
+}
